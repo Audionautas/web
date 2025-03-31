@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca de Audiolibros</title>
+  <style>
+    body {
+      /* Puedes usar una imagen de fondo que simule una estantería, si la tienes.
+         Si no, se deja un color neutro que evoca ambiente de biblioteca. */
+      background-color: #f2ead7;
+      /* background-image: url('estanteria.jpg'); */
+      /* background-size: cover; */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    /* ----------- BANNER SUPERIOR ----------- */
+    .banner img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px auto; /* Centra la imagen y deja un espacio abajo */
+    }
+      /* ----------- TEXTO DE PRESENTACIÓN ----------- */
+      .presentacion {
+      margin-bottom: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      line-height: 1.2;
+    }
+    .presentacion h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+    .presentacion p {
+      margin: 5px 0;
+      font-size: 1.0em;
+    }
+
+
+
+
+
+
+    h1 {
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .book {
+      width: 100px;
+      text-align: center;
+    }
+    .book img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    }
+    .book a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      display: block;
+      margin-top: 5px;
+    }
+
+
+/* 💡 Efecto de inclinación al pasar el mouse */
+.book:hover {
+    transform: rotate(-0deg) scale(1.1);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+  </style>
+</head>
+<body>
+
+
+  <!-- BANNER SUPERIOR -->
+  <div class="banner">
+    <!-- Ajusta la ruta según la carpeta en la que guardaste la imagen -->
+    <img src="img/fondo_con_libros_logo.png" alt="Banner Audionautas" />
+  </div>
+
+  <!-- TEXTO DE PRESENTACIÓN -->
+  <div class="presentacion">
+    <h1>🎧 AUDIONAUTAS 🎧</h1>
+    <p>🚀 Viaje espiritual a través del audio, guiando el alma hacia lo divino 🕊️.</p>
+    <p>📚 Más de 60 libros elegidos y narrados por el sacerdote católico Diego Torres †.</p>
+    <p>
+      📖 Para recibir Meditaciones y Lecturas Espirituales diarias, <strong>SUSCRÍBETE</strong> ▶️
+      y activa la <strong>CAMPANITA</strong> 🔔 ingresando en
+      <a href="https://www.youtube.com/channel/UC19q6hjzHPlRMiSQuvBSJTA?sub_confirmation=1" target="_blank">
+        youtube.com/@AudionautasDeLaFe
+      </a>
+    </p>
+  </div>
+
+
+
+  <h1>Biblioteca de Audiolibros</h1>
+  <div class="container">
+    <!-- Libro 1 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62ewIP1j9OyPew7QX-KaMsJ" target="_blank">
+        <img src="img/257_Dias-Historia_De_Un_Secuestro.png" alt="257 DIAS - HISTORIA DE UN SECUESTRO">
+        <span>257 DIAS - HISTORIA DE UN SECUESTRO</span>
+      </a>
+    </div>
+    <!-- Libro 2 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh628drNFupwwEf97c_c7QAWt" target="_blank">
+        <img src="img/Amigos.png" alt="AMIGOS">
+        <span>AMIGOS</span>
+      </a>
+    </div>
+    <!-- Libro 3 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61qusEYahEAHQI_jnzqckFR" target="_blank">
+        <img src="img/Antonio_Gramsci_Y_La_Revolucion.png" alt="ANTONIO GRAMSCI Y LA REVOLUCIÓN CULTURAL">
+        <span>ANTONIO GRAMSCI Y LA REVOLUCIÓN CULTURAL</span>
+      </a>
+    </div>
+    <!-- Libro 4 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61NwCsPG8mc66EBTjdjxwJo" target="_blank">
+        <img src="img/Ascetica_Meditada.png" alt="ASCETICA MEDITADA">
+        <span>ASCETICA MEDITADA</span>
+      </a>
+    </div>
+    <!-- Libro 5 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60bABrrWoSPrEeVs0ahdud6" target="_blank">
+        <img src="img/Cartas_Del_Diablo_A_Su_Sobrino.png" alt="CARTAS DEL DIABLO A SU SOBRINO">
+        <span>CARTAS DEL DIABLO A SU SOBRINO</span>
+      </a>
+    </div>
+    <!-- Libro 6 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62dV75JKBPA0YbcOtUzQmhZ" target="_blank">
+        <img src="img/Cinco_Cartas_De_Oracion.png" alt="CINCO CARTAS DE ORACIÓN">
+        <span>CINCO CARTAS DE ORACIÓN</span>
+      </a>
+    </div>
+    <!-- Libro 7 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh604AEDJwVWFYq63j7UHO1d5" target="_blank">
+        <img src="img/Corazon_Inquieto.png" alt="CORAZON INQUIETO">
+        <span>CORAZON INQUIETO</span>
+      </a>
+    </div>
+    <!-- Libro 8 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62d3w6jZ9eYmtZ5dUOQD-32" target="_blank">
+        <img src="img/De_Cowboy_A_Trapense.png" alt="DE COWBOY A TRAPENSE">
+        <span>DE COWBOY A TRAPENSE</span>
+      </a>
+    </div>
+    <!-- Libro 9 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60Y9Re_DbNv-nFygzy4JBAs" target="_blank">
+        <img src="img/Dentro_De_Cinco_Horas_Vere_A_Jesus.png" alt="DENTRO DE CINCO HORAS VERÉ A JESÚS">
+        <span>DENTRO DE CINCO HORAS VERÉ A JESÚS</span>
+      </a>
+    </div>
+    <!-- Libro 10 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62GXKQ4-tWCtRHV7wJjeLyr" target="_blank">
+        <img src="img/El_Arbol_Viviente.png" alt="EL ARBOL VIVIENTE">
+        <span>EL ARBOL VIVIENTE</span>
+      </a>
+    </div>
+    <!-- Libro 11 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61UMxkZE1a8dji2VS_r-4GE" target="_blank">
+        <img src="img/El_Baile_Tras_La_Tormenta.png" alt="EL BAILE TRAS LA TORMENTA">
+        <span>EL BAILE TRAS LA TORMENTA</span>
+      </a>
+    </div>
+    <!-- Libro 12 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61dqfEVs0xFnKwrRu_VQYGA" target="_blank">
+        <img src="img/El_Esbirro.png" alt="EL ESBIRRO">
+        <span>EL ESBIRRO</span>
+      </a>
+    </div>
+    <!-- Libro 13 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60sJAQT71nUawH34ycpqYD2" target="_blank">
+        <img src="img/El_Hobbit.png" alt="📜 EL HOBBIT de J. R. R. Tolkien ✍️">
+        <span>📜 EL HOBBIT de J. R. R. Tolkien ✍️</span>
+      </a>
+    </div>
+    <!-- Libro 14 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61mYpSLeKk6QwoC9daOHkBU" target="_blank">
+        <img src="img/El_Hombre_En_Busca_De_Sentido.png" alt="EL HOMBRE EN BUSCA DE SENTIDO">
+        <span>EL HOMBRE EN BUSCA DE SENTIDO</span>
+      </a>
+    </div>
+    <!-- Libro 15 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60DbCDTLQx9rjAre-lo2mJ1" target="_blank">
+        <img src="img/El_Infierno_Es_Una_Realidad.png" alt="EL INFIERNO ES UNA REALIDAD">
+        <span>EL INFIERNO ES UNA REALIDAD</span>
+      </a>
+    </div>
+    <!-- Libro 16 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63M3KdDvxiaUJKRA_Jp9CQ-" target="_blank">
+        <img src="img/El_Paraiso_Perdido.png" alt="EL PARAISO PERDIDO">
+        <span>EL PARAISO PERDIDO</span>
+      </a>
+    </div>
+    <!-- Libro 17 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61uUElhim1GlUBh_CuIbKPG" target="_blank">
+        <img src="img/El_Precio_A_Pagar.png" alt="EL PRECIO A PAGAR">
+        <span>EL PRECIO A PAGAR</span>
+      </a>
+    </div>
+    <!-- Libro 18 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60elrjQcoBuPkeQOcMNdaAR" target="_blank">
+        <img src="img/El_Valor_De_Los_Defectos_Ajenos.png" alt="EL VALOR DE LOS DEFECTOS AJENOS">
+        <span>EL VALOR DE LOS DEFECTOS AJENOS</span>
+      </a>
+    </div>
+    <!-- Libro 19 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh639UY1rIu_yWNCH2wOTfuNU" target="_blank">
+        <img src="img/El_Valor_Divino_De_Lo_Humano.png" alt="EL VALOR DIVINO DE LO HUMANO">
+        <span>EL VALOR DIVINO DE LO HUMANO</span>
+      </a>
+    </div>
+    <!-- Libro 20 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61SdusMlRbZZVDRiWtFLvc2" target="_blank">
+        <img src="img/El_Via_Crucis_De_Todos_Los_Hombres.png" alt="EL VIA CRUCIS DE TODOS LOS HOMBRES">
+        <span>EL VIA CRUCIS DE TODOS LOS HOMBRES</span>
+      </a>
+    </div>
+    <!-- Libro 21 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60ItEYdZSc3ZHv9L4KT99yT" target="_blank">
+        <img src="img/En_Mi_Sed_Me_Dieron_Vinagre.png" alt="EN MI SED ME DIERON VINAGRE">
+        <span>EN MI SED ME DIERON VINAGRE</span>
+      </a>
+    </div>
+    <!-- Libro 22 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63VcZNSsQVJeTy3byh48EWu" target="_blank">
+        <img src="img/Enciclica_Spe_Salvi.png" alt="ENCICLICA SPE SALVI">
+        <span>ENCICLICA SPE SALVI</span>
+      </a>
+    </div>
+    <!-- Libro 23 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60RXWzm2qbRINgzvsaTrgkp" target="_blank">
+        <img src="img/Heridas_En_El_Corazon.png" alt="HERIDAS EN EL CORAZÓN 💔">
+        <span>HERIDAS EN EL CORAZÓN 💔</span>
+      </a>
+    </div>
+    <!-- Libro 24 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62oSHG5I9am1f5F2fL0j3On" target="_blank">
+        <img src="img/Historia_De_Un_Alma.png" alt="HISTORIA DE UN ALMA">
+        <span>HISTORIA DE UN ALMA</span>
+      </a>
+    </div>
+    <!-- Libro 25 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61kMU5F3ehjoVyeAMWdi9Nn" target="_blank">
+        <img src="img/Introduccion_A_La_Vida_Devota.png" alt="INTRODUCCION A LA VIDA DEVOTA">
+        <span>INTRODUCCION A LA VIDA DEVOTA</span>
+      </a>
+    </div>
+    <!-- Libro 26 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60I6ZQKg5GnjUR8JS1kBAh3" target="_blank">
+        <img src="img/Jesucristo_Portador_Del_Agua_Vida.png" alt="JESUCRISTO PORTADOR DEL AGUA DE LA VIDA">
+        <span>JESUCRISTO PORTADOR DEL AGUA DE LA VIDA</span>
+      </a>
+    </div>
+    <!-- Libro 27 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60pKNKE6CstnflqwgmouvcE" target="_blank">
+        <img src="img/La_Abeja_Y_El_Aguijon.png" alt="LA ABEJA Y EL AGUIJÓN">
+        <span>LA ABEJA Y EL AGUIJÓN</span>
+      </a>
+    </div>
+    <!-- Libro 28 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh637wQ7EhNikxUrZsqX3KMAY" target="_blank">
+        <img src="img/La_Alegria_De_Belen.png" alt="LA ALEGRIA DE BELEN">
+        <span>LA ALEGRIA DE BELEN</span>
+      </a>
+    </div>
+    <!-- Libro 29 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61ts_U15qG6FmiWnDO4gWQ8" target="_blank">
+        <img src="img/La_Cena_Del_Cordero.png" alt="LA CENA DEL CORDERO">
+        <span>LA CENA DEL CORDERO</span>
+      </a>
+    </div>
+    <!-- Libro 30 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh6236NpR4L3fgEsaIrqF5Npf" target="_blank">
+        <img src="img/La_Confesion_Frecuente.png" alt="LA CONFESION FRECUENTE">
+        <span>LA CONFESION FRECUENTE</span>
+      </a>
+    </div>
+    <!-- Libro 31 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62TjCo1MSPy9eph87xkqi5R" target="_blank">
+        <img src="img/La_Felicidad_Donde_No_Se_Espera.png" alt="LA FELICIDAD DONDE NO SE ESPERA">
+        <span>LA FELICIDAD DONDE NO SE ESPERA</span>
+      </a>
+    </div>
+    <!-- Libro 32 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61a9LM77AEP-DZpZYlM0uJM" target="_blank">
+        <img src="img/La_Infancia_De_Jesus.png" alt="LA INFANCIA DE JESÚS">
+        <span>LA INFANCIA DE JESÚS</span>
+      </a>
+    </div>
+    <!-- Libro 33 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63s1yZ3mw2qh0kSG1S_ux2J" target="_blank">
+        <img src="img/La_Libertad_Interior.png" alt="LA LIBERTAD INTERIOR">
+        <span>LA LIBERTAD INTERIOR</span>
+      </a>
+    </div>
+    <!-- Libro 34 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60JP3SI00G5JU3YDFgMA9NM" target="_blank">
+        <img src="img/La_Senora.png" alt="LA SEÑORA">
+        <span>LA SEÑORA</span>
+      </a>
+    </div>
+    <!-- Libro 35 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60BuFp5WwvS3v7cm2KF004J" target="_blank">
+        <img src="img/La_Sombra_Del_Padre.png" alt="LA SOMBRA DEL PADRE">
+        <span>LA SOMBRA DEL PADRE</span>
+      </a>
+    </div>
+    <!-- Libro 36 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61TjvgzPRe528TSePwcMu90" target="_blank">
+        <img src="img/La_Tibieza.png" alt="LA TIBIEZA">
+        <span>LA TIBIEZA</span>
+      </a>
+    </div>
+    <!-- Libro 37 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61_bqyt3rAH59UOobYKl6kI" target="_blank">
+        <img src="img/Lineas_Guia_Exorcismo.png" alt="LINEAS GUIA [✟EXORCISMO✟]">
+        <span>LINEAS GUIA [✟EXORCISMO✟]</span>
+      </a>
+    </div>
+    <!-- Libro 38 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63LwxBUNnFXhA-oJU077OdY" target="_blank">
+        <img src="img/Los_5_Lenguajes_Del_Amor.png" alt="LOS 5 LENGUAJES DEL AMOR">
+        <span>LOS 5 LENGUAJES DEL AMOR</span>
+      </a>
+    </div>
+    <!-- Libro 39 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh612YmMRNYpmIk06wLzR8AeD" target="_blank">
+        <img src="img/Los_Males_De_La_Lengua.png" alt="LOS MALES DE LA LENGUA">
+        <span>LOS MALES DE LA LENGUA</span>
+      </a>
+    </div>
+    <!-- Libro 40 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61uzkUcK2EDZJwK4GtZ2Zhn" target="_blank">
+        <img src="img/Los_Silencios_De_San_Jose.png" alt="LOS SILENCIOS DE SAN JOSE">
+        <span>LOS SILENCIOS DE SAN JOSE</span>
+      </a>
+    </div>
+    <!-- Libro 41 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60CsA-9zNrDnD3rrZVn4NBy" target="_blank">
+        <img src="img/Meditaciones_diarias.png" alt="⛪ Meditaciones Diarias ✞">
+        <span>⛪ Meditaciones Diarias ✞</span>
+      </a>
+    </div>
+    <!-- Libro 42 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60ihAU6ApSd00D0pDy08H-C" target="_blank">
+        <img src="img/Possenti_El_Hijo_Del_Gobernador.png" alt="POSSENTI, EL HIJO DEL GOBERNADOR">
+        <span>POSSENTI, EL HIJO DEL GOBERNADOR</span>
+      </a>
+    </div>
+    <!-- Libro 43 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61vAphAdTWhXXgc9-RTd_Kw" target="_blank">
+        <img src="img/Relatos_De_Un_Peregrino_Ruso.png" alt="RELATOS DE UN PEREGRINO RUSO">
+        <span>RELATOS DE UN PEREGRINO RUSO</span>
+      </a>
+    </div>
+    <!-- Libro 44 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63L7auaUwS2QqQ_XHLYn7sX" target="_blank">
+        <img src="img/Roma_Dulce_Hogar.png" alt="⛪ ROMA, DULCE HOGAR">
+        <span>⛪ ROMA, DULCE HOGAR</span>
+      </a>
+    </div>
+    <!-- Libro 45 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63Ue13rjBYO4G2Ou0rPY3Y4" target="_blank">
+        <img src="img/San_Francisco_De_Asis.png" alt="SAN FRANCISCO DE ASIS">
+        <span>SAN FRANCISCO DE ASIS</span>
+      </a>
+    </div>
+    <!-- Libro 46 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh639surK5GoC-zsCjWAf-k-t" target="_blank">
+        <img src="img/Saquennos_De_Aqui.png" alt="SAQUENNOS DE AQUI">
+        <span>SAQUENNOS DE AQUI</span>
+      </a>
+    </div>
+    <!-- Libro 47 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60LDYsenZoY4-xirphECM_g" target="_blank">
+        <img src="img/Sobrevivir_Para_Contarlo.png" alt="SOBREVIVIR PARA CONTARLO">
+        <span>SOBREVIVIR PARA CONTARLO</span>
+      </a>
+    </div>
+    <!-- Libro 48 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62CJZgdCAj_THEm43HpTYBx" target="_blank">
+        <img src="img/Sola_Con_El_Solo.png" alt="SOLA CON EL SOLO">
+        <span>SOLA CON EL SOLO</span>
+      </a>
+    </div>
+    <!-- Libro 49 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh62mNBKFZJZRZtRTa6QJ_9TR" target="_blank">
+        <img src="img/Son_Tres_Los_Que_Se_Casan.png" alt="SON TRES LOS QUE SE CASAN">
+        <span>SON TRES LOS QUE SE CASAN</span>
+      </a>
+    </div>
+    <!-- Libro 50 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh61Qe_eTFDFJLPcJD7vzX6ll" target="_blank">
+        <img src="img/Testigos_De_Esperanza.png" alt="TESTIGOS DE ESPERANZA">
+        <span>TESTIGOS DE ESPERANZA</span>
+      </a>
+    </div>
+    <!-- Libro 51 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63Mk59NzWidNZJROR8ojVem" target="_blank">
+        <img src="img/Una_Familia_De_Bandidos_En_1793.png" alt="UN SEMINARISTA EN LAS SS">
+        <span>UN SEMINARISTA EN LAS SS</span>
+      </a>
+    </div>
+    <!-- Libro 52 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60dvmARX9xyw2xs8PpYNfMQ" target="_blank">
+        <img src="img/Un_Seminarista_En_Las_Ss.png" alt="UNA FAMILIA DE BANDIDOS EN 1793">
+        <span>UNA FAMILIA DE BANDIDOS EN 1793</span>
+      </a>
+    </div>
+    <!-- Libro 53 -->
+    <div class="book">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60zH5NnunOZClL54ahboTXs" target="_blank">
+        <img src="img/Volveran_Las_Palomas.png" alt="VOLVERAN LAS PALOMAS">
+        <span>VOLVERAN LAS PALOMAS</span>
+      </a>
+    </div>
+    <!-- Libro 54 -->
+    <div class="book">
+        <a href="hablar_con_Dios.html" target="_blank">
+          <img src="img/Hablar_Con_Dios_Tomos_Total_7.png" alt="Hablar_Con_Dios_Tomos_Total_7">
+          <span>HABLAR CON DIOS ✠ 7 TOMOS ✠</span>
+        </a>
+      </div>
+          <!-- Libro 55 -->
+    <div class="book">
+        <a href="naves_y_tempestades.html" target="_blank">
+          <img src="img/La_Nave_Y_Las_Tempestades_Total_12.png" alt="La_Nave_Y_Las_Tempestades_Tomos_Total_12">
+          <span>LA NAVE Y LAS TEMPESTADES ✠ 12 TOMOS ✠</span>
+        </a>
+      </div>
+  </div>
+</body>
+</html>
