@@ -9,13 +9,22 @@
       /* Puedes usar una imagen de fondo que simule una estantería, si la tienes.
          Si no, se deja un color neutro que evoca ambiente de biblioteca. */
       /* background-color: #f2ead7--#d1a744;*/
-      background-color: #edce86;    
-      /* background-image: url('fondo31.png ');*/
-      /* background-size: cover; */
-      font-family: Arial, sans-serif;
+      background-color: #000000;    
+      background-image: url('fondo2.jpeg ');
+      /* background-size: 100%;*/     
+      background-size: cover;
+      font-family: Georgia, Arial, sans-serif;
       text-align: center;
       padding: 20px;
     }
+
+    @media only screen and (max-width: 768px) {
+  body {
+    background-size: auto; /* O puedes ajustar a otro valor que te convenga */
+  }
+}
+
+
     /* ----------- BANNER SUPERIOR ----------- */
     .banner img {
       max-width: 100%;
@@ -29,9 +38,11 @@
       margin-left: 5px;
       margin-right: 5px;
       line-height: 1.2;
+      color: rgb(255, 255, 255);
     }
     .presentacion h1 {
       font-size: 2em;
+      
       margin-bottom: 5px;
     }
     .presentacion p {
@@ -46,6 +57,8 @@
 
     h1 {
       margin-bottom: 20px;
+      color: #FFFF00;
+      
     }
     .container {
       display: flex;
@@ -57,6 +70,14 @@
       width: 150px;
       text-align: center;
     }
+    @media only screen and (max-width: 768px) {
+  .book {
+    width: 100px;
+    text-align: center;
+  }
+}
+
+
     .book img {
       width: 100%;
       border-radius: 5px;
@@ -64,8 +85,10 @@
     }
     .book a {
       text-decoration: none;
-      color: black;
+      /* color: rgb(255, 255, 255);*/
+      color: #FFFF00;
       font-size: 14px;
+      font-weight: bold;
       display: block;
       margin-top: 5px;
     }
@@ -96,7 +119,7 @@
     <p>
       📖 Para recibir Meditaciones y Lecturas Espirituales diarias, <strong>SUSCRÍBETE</strong> ▶️
       y activa la <strong>CAMPANITA</strong> 🔔 ingresando en
-      <a href="https://www.youtube.com/channel/UC19q6hjzHPlRMiSQuvBSJTA?sub_confirmation=1" target="_blank">
+      <a href="https://www.youtube.com/channel/UC19q6hjzHPlRMiSQuvBSJTA?sub_confirmation=1" style="color:#e6e209ce;" target="_blank">
         youtube.com/@AudionautasDeLaFe
       </a>
     </p>
