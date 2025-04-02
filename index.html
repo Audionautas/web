@@ -13,7 +13,7 @@
       background-image: url('fondo2.jpeg ');
       /* background-size: 100%;*/     
       background-size: cover;
-      font-family: Georgia, Arial, sans-serif;
+      font-family: Monospace, Verdana, Helvetica;
       text-align: center;
       padding: 20px;
     }
@@ -75,15 +75,40 @@
     width: 100px;
     text-align: center;
   }
-}
-
-
+    }
     .book img {
       width: 100%;
       border-radius: 5px;
       box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
     }
     .book a {
+      text-decoration: none;
+      /* color: rgb(255, 255, 255);*/
+      color: #FFFF00;
+      font-size: 14px;
+      font-weight: bold;
+      display: block;
+      margin-top: 5px;
+    }
+
+/* LIBRO DE MEDITACION */
+
+    .meditacion {
+      width: 400px;
+      text-align: center;
+    }
+    @media only screen and (max-width: 768px) {
+  .meditacion {
+    width: 250px;
+    text-align: center;
+  }
+    }
+    .meditacion img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    }
+    .meditacion a {
       text-decoration: none;
       /* color: rgb(255, 255, 255);*/
       color: #FFFF00;
@@ -409,13 +434,7 @@
         <span>LOS SILENCIOS DE SAN JOSE</span>
       </a>
     </div>
-    <!-- Libro 41 -->
-    <div class="book">
-      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60CsA-9zNrDnD3rrZVn4NBy" target="_blank">
-        <img src="img/Meditaciones_diarias.png" alt="⛪ Meditaciones Diarias ✞">
-        <span>⛪ Meditaciones Diarias ✞</span>
-      </a>
-    </div>
+    
     <!-- Libro 42 -->
     <div class="book">
       <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60ihAU6ApSd00D0pDy08H-C" target="_blank">
@@ -433,8 +452,8 @@
     <!-- Libro 44 -->
     <div class="book">
       <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh63L7auaUwS2QqQ_XHLYn7sX" target="_blank">
-        <img src="img/Roma_Dulce_Hogar.png" alt="⛪ ROMA, DULCE HOGAR">
-        <span>⛪ ROMA, DULCE HOGAR</span>
+        <img src="img/Roma_Dulce_Hogar.png" alt="ROMA, DULCE HOGAR">
+        <span>ROMA, DULCE HOGAR</span>
       </a>
     </div>
     <!-- Libro 45 -->
@@ -582,10 +601,23 @@
           <span>LA NAVE Y LAS TEMPESTADES ✠ TOMO IV ✠</span>
       </a>
      </div>
-
-
-
-
+    </div>
+     
+  <h1>Meditaciones Diarias</h1> 
+  <div class="container">
+    <!-- Libro 41 MEDITACIONES -->
+    <div class="meditacion">
+      <a href="https://www.youtube.com/playlist?list=PLDfHgP0Wyh60CsA-9zNrDnD3rrZVn4NBy" target="_blank">
+        <img src="img/Meditaciones_diarias.png" alt="Meditaciones Diarias ✞">
+        <span style=color:white>📖 Para recibir Meditaciones y Lecturas Espirituales diarias, <strong>SUSCRÍBETE</strong> ▶️
+          y activa la <strong>CAMPANITA</strong> 🔔 ingresando en
+          <a href="https://www.youtube.com/channel/UC19q6hjzHPlRMiSQuvBSJTA?sub_confirmation=1" style="color:#e6e209ce;" target="_blank">
+            youtube.com/@AudionautasDeLaFe
+          </a></span>
+      </a>
+      
+    </div>
+    
       </div>
 </body>
 </html>
